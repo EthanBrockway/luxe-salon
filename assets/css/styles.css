@@ -1,5 +1,5 @@
 body {
-    background-color: #85CBB3;
+    background-color: #659989;
 }
 h1 {
     color:black;
@@ -20,9 +20,9 @@ h2{
     height: 700px;
     border-color: white; 
     border-style:solid;
-    border-left-color: #85CBB3;
-    border-right-color: #85CBB3;
-    border-bottom-color: #85CBB3
+    border-left-color: #659989;
+    border-right-color: #659989;
+    border-bottom-color: #659989
 }
 .grid-item2{
     text-align: center;
@@ -30,17 +30,25 @@ h2{
     height: 700px;
     border-color: white; 
     border-style:solid;
-    border-left-color: #85CBB3;
-    border-right-color: #85CBB3;
-    border-bottom-color: #85CBB3
+    border-left-color: #659989;
+    border-right-color: #659989;
+    border-bottom-color: #659989
 }
 .instaImg{
-    width: 32px;
-    height: 32px
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #659989;
 }
+.instaImg:hover {
+    opacity:.7;
+    background-color: lightgreen
+}
+
+
 .handles {
     width: auto;
-    background-color: blue;
     display: grid;
     justify-content: center ;
 }
