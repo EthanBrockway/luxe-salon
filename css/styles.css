@@ -1,3 +1,37 @@
 body {
-    background-color: black;
+    background-color: #85CBB3;
+}
+h1 {
+    color:black;
+    text-align: center
+}
+h2{
+    font-size:40px;
+}
+.grid-container {
+    display:grid;
+    grid-template-columns:auto auto ;
+    justify-content:center;
+    gap: 8px ;
+}
+.grid-item1 {
+    text-align: center;
+    width:600px;
+    height: 700px;
+    border-color: white; 
+    border-style:solid;
+    border-left-color: #85CBB3;
+    border-bottom-color: #85CBB3
+}
+.grid-item2{
+    text-align: center;
+    width:600px;
+    height: 700px;
+    border-color: white; 
+    border-style:solid;
+    border-right-color: #85CBB3;
+    border-bottom-color: #85CBB3
+}
+p{
+    font-size: 25px
 }
