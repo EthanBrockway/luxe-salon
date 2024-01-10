@@ -17,9 +17,10 @@ p{
 
 .grid-container {
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto ;
     justify-content:center;
     gap: 20px ;
+   
 }
 .grid-item1 {
     text-align: center;
@@ -135,3 +136,27 @@ p{
 .carousel-button.next{
     right:1rem;
 }
+
+
+/* 
+@media screen and (max-width: 480px)
+{
+    
+    p{
+        font-size:smaller;
+        width: 100%;
+    }
+   .grid-container{
+    
+    grid-template-columns: 1fr;
+    width:480px;
+
+   }
+   
+   .grid-item1{
+    max-width: 480px;
+
+    
+   }
+} */
+
