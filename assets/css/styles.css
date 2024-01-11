@@ -66,9 +66,9 @@ p {
   border-color: black;
   width: 20vw;
 } */
-.meg:hover {
+/* .meg:hover {
   background-color: red;
-}
+} */
 /* src index */
 
 .home-button {
@@ -156,6 +156,10 @@ p {
       "footer"
       "head"
       "foot";
+  }
+  .portfolioImg {
+    width: 40px;
+    height: 40px;
   }
   .slide {
     align-items: center;
