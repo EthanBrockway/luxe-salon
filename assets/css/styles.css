@@ -138,6 +138,7 @@ p {
     width: 70vw;
   }
   .carousel-button {
+    touch-action: manipulation;
     font-size: 2rem;
     height: 5rem;
   }
