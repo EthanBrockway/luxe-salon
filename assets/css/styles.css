@@ -48,6 +48,9 @@ p {
   opacity: 0.7;
   background-color: lightcoral;
 }
+
+/* src index */
+
 .home-button {
   position: absolute;
   z-index: 2;
@@ -83,7 +86,6 @@ p {
 .slide > img {
   display: grid;
   width: auto;
-  height: auto;
   object-fit: contain;
   box-shadow: 10px 10px 10px 10px #888888;
   margin-top: 50px;
@@ -128,5 +130,23 @@ p {
   }
   .grid-container {
     grid-template-columns: minmax(100px, 480px);
+  }
+  .slide {
+    align-items: center;
+  }
+  .slide > img {
+    width: 70vw;
+  }
+  .carousel-button {
+    font-size: 2rem;
+    height: 5rem;
+  }
+}
+@media screen and (max-width: 783px) {
+  .slide {
+    align-items: center;
+  }
+  .slide > img {
+    width: 70vw;
   }
 }
