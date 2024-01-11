@@ -22,6 +22,9 @@ a {
   text-decoration: none;
   color: black;
 }
+.portfolioHead {
+  font-size: 30px;
+}
 
 .grid-item1 {
   grid-area: header;
@@ -163,8 +166,14 @@ a {
 }
 
 @media screen and (max-width: 480px) {
+  body {
+    height: auto;
+  }
   p {
-    font-size: smaller;
+    font-size: 18px;
+  }
+  .portfolioHead {
+    font-size: 25px;
   }
   .grid-container {
     grid-template-columns: minmax(100px, 480px);
