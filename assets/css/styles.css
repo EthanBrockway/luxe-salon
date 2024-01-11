@@ -29,14 +29,15 @@ p {
   grid-area: foot;
 }
 .grid-container {
+  padding: 45px;
   display: grid;
   grid-template-columns: repeat(2, minmax(100px, 900px));
   grid-template-areas:
-    "header header head head"
-    "footer footer foot foot";
+    "header  head "
+    "footer  foot ";
   justify-content: center;
   text-align: center;
-  gap: 20px;
+  gap: 100px;
 }
 
 .instaImg {
@@ -73,11 +74,18 @@ p {
 
 .home-button {
   position: absolute;
+  opacity: 0.7;
   z-index: 2;
   padding: 20px;
-  background-color: lightcoral;
+  background-color: pink;
   margin: 6px 6px 6px;
-  border-radius: 300px;
+  border-radius: 0px 0px 30px 0px;
+}
+.home-button:hover {
+  opacity: 0.4;
+}
+.home-button:active {
+  color: white;
 }
 .carousel {
   width: 100vw;
@@ -128,7 +136,7 @@ p {
   color: rgba (255, 255, 255, 0.5);
   cursor: pointer;
   border-radius: 0.25rem;
-  padding: 0 0.5rem;
+  padding: 5px;
   background-color: rgba(0, 0, 0, 0.1);
 }
 .carousel-button:hover,
@@ -149,13 +157,18 @@ p {
     font-size: smaller;
   }
   .grid-container {
-    padding: 45px;
     grid-template-columns: minmax(100px, 480px);
     grid-template-areas:
       "header"
       "footer"
       "head"
       "foot";
+  }
+  .grid-item2 {
+  }
+  .instaImg {
+    width: 40px;
+    height: 40px;
   }
   .portfolioImg {
     width: 40px;
