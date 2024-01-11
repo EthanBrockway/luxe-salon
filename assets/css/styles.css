@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 body {
+  display: flex;
   margin: 0;
+  height: 100vh;
 }
 h1 {
   color: black;
@@ -16,6 +18,11 @@ h2 {
 p {
   font-size: 25px;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .grid-item1 {
   grid-area: header;
 }
@@ -29,15 +36,15 @@ p {
   grid-area: foot;
 }
 .grid-container {
-  padding: 45px;
   display: grid;
+  padding: 45px;
   grid-template-columns: repeat(2, minmax(100px, 900px));
   grid-template-areas:
     "header  head "
     "footer  foot ";
   justify-content: center;
   text-align: center;
-  gap: 100px;
+  gap: 40px;
 }
 
 .instaImg {
@@ -74,18 +81,21 @@ p {
 
 .home-button {
   position: absolute;
-  opacity: 0.7;
   z-index: 2;
   padding: 20px;
   background-color: pink;
   margin: 6px 6px 6px;
   border-radius: 0px 0px 30px 0px;
+  text-decoration: none;
 }
+
 .home-button:hover {
-  opacity: 0.4;
+  background-color: lightpink;
+  cursor: pointer;
 }
-.home-button:active {
-  color: white;
+.home-button:visited {
+  color: black;
+  text-decoration: none;
 }
 .carousel {
   width: 100vw;
@@ -163,8 +173,10 @@ p {
       "footer"
       "head"
       "foot";
+    gap: 0px;
   }
-  .grid-item2 {
+  .grid-item3 {
+    padding-top: 50px;
   }
   .instaImg {
     width: 40px;
