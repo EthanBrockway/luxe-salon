@@ -16,16 +16,29 @@ h2 {
 p {
   font-size: 25px;
 }
-
+.grid-item1 {
+  grid-area: header;
+}
+.grid-item2 {
+  grid-area: footer;
+}
+.grid-item3 {
+  grid-area: head;
+}
+.grid-item4 {
+  grid-area: foot;
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, minmax(100px, 900px));
+  grid-template-areas:
+    "header header head head"
+    "footer footer foot foot";
   justify-content: center;
   text-align: center;
   gap: 20px;
 }
-.grid-item {
-}
+
 .instaImg {
   width: 30px;
   height: 30px;
@@ -48,7 +61,14 @@ p {
   opacity: 0.7;
   background-color: lightcoral;
 }
-
+/* .meg {
+  border-style: solid;
+  border-color: black;
+  width: 20vw;
+} */
+.meg:hover {
+  background-color: red;
+}
 /* src index */
 
 .home-button {
@@ -129,7 +149,13 @@ p {
     font-size: smaller;
   }
   .grid-container {
+    padding: 45px;
     grid-template-columns: minmax(100px, 480px);
+    grid-template-areas:
+      "header"
+      "footer"
+      "head"
+      "foot";
   }
   .slide {
     align-items: center;
