@@ -21,7 +21,13 @@ a {
   text-decoration: none;
   color: black;
 }
-#ch {
+#meghan-toggle-button {
+  display: none;
+}
+#cara-toggle-button {
+  display: none;
+}
+#bookNow-toggle-button {
   display: none;
 }
 .portfolioHead {
@@ -40,13 +46,18 @@ a {
 .grid-item4 {
   grid-area: foot;
 }
+.grid-item5 {
+  grid-area: handle;
+}
 .grid-container {
   display: grid;
   padding: 45px;
   grid-template-columns: repeat(2, minmax(100px, 900px));
   grid-template-areas:
     "header  head "
-    "footer  foot ";
+    "footer  foot "
+    "handle handle";
+  grid-template-rows: 1fr 1fr;
   justify-content: center;
   text-align: center;
   gap: 40px;
@@ -74,15 +85,6 @@ a {
   opacity: 0.7;
   background-color: lightcoral;
 }
-/* .meg {
-  border-style: solid;
-  border-color: black;
-  width: 20vw;
-} */
-/* .meg:hover {
-  background-color: red;
-} */
-/* src index */
 
 .home-button {
   position: absolute;
@@ -166,7 +168,9 @@ a {
 .carousel-button.next {
   right: 1rem;
 }
-
+.mobile {
+  display: none;
+}
 @media screen and (max-width: 480px) {
   body {
     height: auto;
@@ -175,7 +179,14 @@ a {
     font-size: 18px;
   }
 
-  #ch:checked ~ .content {
+  #meghan-toggle-button:checked ~ .meghan-content {
+    display: block;
+  }
+
+  #cara-toggle-button:checked ~ .cara-content {
+    display: block;
+  }
+  #bookNow-toggle-button:checked ~ .contact-content {
     display: block;
   }
   label {
@@ -184,24 +195,30 @@ a {
     background-color: lightpink;
     padding-left: 30px;
     padding-right: 30px;
+    width: 70vw;
   }
-  .content {
+  .meghan-content {
+    display: none;
+  }
+  .cara-content {
+    display: none;
+  }
+  .contact-content {
     display: none;
   }
   .portfolioHead {
     font-size: 25px;
   }
   .grid-container {
-    grid-template-columns: minmax(100px, 480px);
-    grid-template-areas:
-      "header"
-      "footer"
-      "head"
-      "foot";
-    gap: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
   .grid-item3 {
-    padding-top: 50px;
+    padding-top: 60px;
+  }
+  .grid-item5 {
+    padding-top: 60px;
   }
   .instaImg {
     width: 40px;
@@ -221,6 +238,12 @@ a {
     touch-action: manipulation;
     font-size: 2rem;
     height: 5rem;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
   }
 }
 @media screen and (max-width: 783px) {

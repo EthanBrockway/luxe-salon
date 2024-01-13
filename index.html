@@ -15,14 +15,11 @@
   </style>
 
   <body>
-    <h1>Luxe Salon Ladies</h1>
-    <div class="grid-container">
-      <div class="grid-item1">
-        <input id="ch" type="checkbox" />
-        <label for="ch">
+    <div class="desktop">
+      <h1>Luxe Salon Ladies</h1>
+      <div class="grid-container">
+        <div class="grid-item1">
           <h2>Meghan</h2>
-        </label>
-        <div class="content">
           <p>
             Meghan is a hairstylist and lash tech that graduated cosmetology
             school from Z- Hair Academy. She knew she wanted to be a hairstylist
@@ -43,7 +40,8 @@
             that’s always looking for her next adventure! Meghan is excited to
             see you in her chair for all of your hair needs!
           </p>
-
+        </div>
+        <div class="gird-item2">
           <p class="portfolioHead">Meghan's Portfolio</p>
           <a href="https://www.instagram.com/meghan.dalton.stylist/">
             <img class="instaImg" src="assets/images/InstaIcon.png" />
@@ -52,37 +50,133 @@
             <img class="portfolioImg" src="assets/images/scissors.png" />
           </a>
         </div>
-      </div>
 
-      <div class="grid-item3">
-        <h2>Cara</h2>
-        <p>
-          Cara is a graduate from Z-hair Academy on Barry Road. She has loved
-          all things beauty since she was a little girl. Cara has a passion for
-          connecting with others while also making them feel beautiful inside
-          and out! Continuing her education is something that is very important
-          to Cara, and she is always excited to keep up with the new trends.
-          After she completed cosmetology school, she furthered her education
-          and became a certified lash tech through Prolash! Cara enjoys all
-          things blonding and dimensional color and is excited to continue
-          expanding her skills into other parts of the industry.
-        </p>
-        <p>
-          When Cara isn’t in the salon, she enjoys volunteering at her local
-          church and other events. She also likes to spend time in nature,
-          workout at the gym, visit with her family and friends, and travel
-          whenever she has the chance! Cara is looking forward to having you in
-          her chair for all of your hair and beauty needs!
-        </p>
+        <div class="grid-item3">
+          <h2>Cara</h2>
+          <p>
+            Cara is a graduate from Z-hair Academy on Barry Road. She has loved
+            all things beauty since she was a little girl. Cara has a passion
+            for connecting with others while also making them feel beautiful
+            inside and out! Continuing her education is something that is very
+            important to Cara, and she is always excited to keep up with the new
+            trends. After she completed cosmetology school, she furthered her
+            education and became a certified lash tech through Prolash! Cara
+            enjoys all things blonding and dimensional color and is excited to
+            continue expanding her skills into other parts of the industry.
+          </p>
+          <p>
+            When Cara isn’t in the salon, she enjoys volunteering at her local
+            church and other events. She also likes to spend time in nature,
+            workout at the gym, visit with her family and friends, and travel
+            whenever she has the chance! Cara is looking forward to having you
+            in her chair for all of your hair and beauty needs!
+          </p>
+        </div>
+        <div class="grid-item4">
+          <p class="portfolioHead">Cara's Portfolio</p>
+          <a
+            href="https://www.instagram.com/caras.cutsandcolor/"
+            target="_blank"
+          >
+            <img class="instaImg" src="assets/images/InstaIcon.png" />
+          </a>
+          <a href="./src/cara.html" style="text-decoration: none">
+            <img class="portfolioImg" src="assets/images/scissors.png" />
+          </a>
+        </div>
+        <div class="grid-item5">
+          <label for="cara-toggle-button">
+            <h2>Book Now!</h2>
+          </label>
+        </div>
       </div>
-      <div class="grid-item4">
-        <p class="portfolioHead">Cara's Portfolio</p>
-        <a href="https://www.instagram.com/caras.cutsandcolor/" target="_blank">
-          <img class="instaImg" src="assets/images/InstaIcon.png" />
-        </a>
-        <a href="./src/cara.html" style="text-decoration: none">
-          <img class="portfolioImg" src="assets/images/scissors.png" />
-        </a>
+    </div>
+    <!-- mobile view! -->
+    <div class="mobile">
+      <h1>Luxe Salon Ladies</h1>
+      <div class="grid-container">
+        <div class="grid-item1">
+          <input id="meghan-toggle-button" type="checkbox" />
+          <label for="meghan-toggle-button">
+            <h2>Meghan</h2>
+          </label>
+          <div class="meghan-content">
+            <p>
+              Meghan is a hairstylist and lash tech that graduated cosmetology
+              school from Z- Hair Academy. She knew she wanted to be a
+              hairstylist because she’s loved doing hair since she was a little
+              girl. She believes that everyone deserves to look as good as they
+              feel and wants to help people love what they see when they look in
+              the mirror. Meghan’s favorite services to perform are dimensional
+              color and eyelash extensions. Expanding her knowledge and learning
+              new techniques is something she’s very passionate about. Meghan
+              has furthered her education by taking additional classes and
+              becoming a certified balayage specialist through Sunlight's Pro
+              and an eyelash technician through Prolash Products!
+            </p>
+            <p>
+              When she is not doing hair, Meghan spends her free time by having
+              family game nights, hanging out with friends, going to the gym,
+              volunteering, and staying active in church. Shes a Thrillseeker
+              that’s always looking for her next adventure! Meghan is excited to
+              see you in her chair for all of your hair needs!
+            </p>
+
+            <p class="portfolioHead">Meghan's Portfolio</p>
+            <a href="https://www.instagram.com/meghan.dalton.stylist/">
+              <img class="instaImg" src="assets/images/InstaIcon.png" />
+            </a>
+            <a href="./src/meghan.html" style="text-decoration: none">
+              <img class="portfolioImg" src="assets/images/scissors.png" />
+            </a>
+          </div>
+        </div>
+
+        <div class="grid-item3">
+          <input id="cara-toggle-button" type="checkbox" />
+          <label for="cara-toggle-button">
+            <h2>Cara</h2>
+          </label>
+          <div class="cara-content">
+            <p>
+              Cara is a graduate from Z-hair Academy on Barry Road. She has
+              loved all things beauty since she was a little girl. Cara has a
+              passion for connecting with others while also making them feel
+              beautiful inside and out! Continuing her education is something
+              that is very important to Cara, and she is always excited to keep
+              up with the new trends. After she completed cosmetology school,
+              she furthered her education and became a certified lash tech
+              through Prolash! Cara enjoys all things blonding and dimensional
+              color and is excited to continue expanding her skills into other
+              parts of the industry.
+            </p>
+            <p>
+              When Cara isn’t in the salon, she enjoys volunteering at her local
+              church and other events. She also likes to spend time in nature,
+              workout at the gym, visit with her family and friends, and travel
+              whenever she has the chance! Cara is looking forward to having you
+              in her chair for all of your hair and beauty needs!
+            </p>
+
+            <p class="portfolioHead">Cara's Portfolio</p>
+            <a
+              href="https://www.instagram.com/caras.cutsandcolor/"
+              target="_blank"
+            >
+              <img class="instaImg" src="assets/images/InstaIcon.png" />
+            </a>
+            <a href="./src/cara.html" style="text-decoration: none">
+              <img class="portfolioImg" src="assets/images/scissors.png" />
+            </a>
+          </div>
+        </div>
+        <div class="grid-item5">
+          <input id="bookNow-toggle-button" type="checkbox" />
+          <label for="bookNow-toggle-button">
+            <h2>Book Now!</h2>
+          </label>
+          <div class="contact-content"><p>BOOK WITH US PLEASE!</p></div>
+        </div>
       </div>
     </div>
   </body>
