@@ -201,6 +201,7 @@ a {
   label:active {
     background-color: none;
     color: white;
+    border-style: solid;
   }
 
   .meghan-content {
