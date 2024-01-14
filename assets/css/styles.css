@@ -198,6 +198,10 @@ a {
     padding-right: 30px;
     width: 70vw;
   }
+  label:active {
+    background-color: none;
+    color: white;
+  }
 
   .meghan-content {
     display: none;
