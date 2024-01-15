@@ -10,6 +10,7 @@ body {
 h1 {
   color: black;
   text-align: center;
+  font-size: 50px;
 }
 h2 {
   font-size: 40px;
@@ -198,10 +199,18 @@ a {
     padding-right: 30px;
     width: 70vw;
   }
-  label:active {
+  label:hover {
     background-color: none;
     color: white;
     border-style: solid;
+  }
+  h1 {
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 35px;
   }
 
   .meghan-content {
