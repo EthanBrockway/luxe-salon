@@ -40,12 +40,14 @@ a {
 }
 .grid-item2 {
   grid-area: footer;
+  height: 5px;
 }
 .grid-item3 {
   grid-area: head;
 }
 .grid-item4 {
   grid-area: foot;
+  height: 5px;
 }
 .grid-item5 {
   grid-area: handle;
@@ -58,12 +60,14 @@ a {
     "header  head "
     "footer  foot "
     "handle handle";
-  grid-template-rows: 1fr 1fr;
+
   justify-content: center;
   text-align: center;
-  gap: 40px;
+  gap: 20px;
 }
-
+.eyes {
+  width: 35vw;
+}
 .instaImg {
   width: 30px;
   height: 30px;
@@ -131,7 +135,6 @@ a {
 }
 .slide > img {
   display: grid;
-  width: auto;
   object-fit: contain;
   box-shadow: 10px 10px 10px 10px #888888;
   margin-top: 50px;
