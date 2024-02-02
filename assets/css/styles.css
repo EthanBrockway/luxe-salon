@@ -18,12 +18,10 @@ h2 {
 p {
   font-size: 25px;
 }
-
 a {
   text-decoration: none;
   color: black;
 }
-
 #meghan-toggle-button {
   display: none;
 }
@@ -197,7 +195,6 @@ a {
   color: white;
   background-color: rgba(0, 0, 0, 0.2);
 }
-
 .carousel-button.prev {
   left: 1rem;
 }
@@ -214,11 +211,9 @@ a {
   p {
     font-size: 18px;
   }
-
   #meghan-toggle-button:checked ~ .meghan-content {
     display: block;
   }
-
   #cara-toggle-button:checked ~ .cara-content {
     display: block;
   }
@@ -247,9 +242,12 @@ a {
   h2 {
     font-size: 35px;
   }
-
   .meghan-content {
     display: none;
+  }
+  .meghanPfp {
+    height: 170px;
+    width: 125px;
   }
   .cara-content {
     display: none;
@@ -258,10 +256,10 @@ a {
     height: 170px;
     width: 125px;
   }
+
   .contact-content {
     display: none;
   }
-
   .portfolioHead {
     font-size: 25px;
   }
