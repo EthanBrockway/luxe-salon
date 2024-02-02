@@ -56,7 +56,15 @@ a {
   grid-area: handle;
 }
 .contactContainer {
-  color: red;
+  border-style: solid;
+  border-color: black;
+  background-color: lightpink;
+  border-radius: 20px;
+}
+.contactContainer:hover {
+  color: white;
+  background-color: pink;
+  border-color: pink;
 }
 .grid-container {
   display: grid;
