@@ -18,10 +18,12 @@ h2 {
 p {
   font-size: 25px;
 }
+
 a {
   text-decoration: none;
   color: black;
 }
+
 #meghan-toggle-button {
   display: none;
 }
@@ -31,6 +33,7 @@ a {
 #bookNow-toggle-button {
   display: none;
 }
+
 .portfolioHead {
   font-size: 30px;
 }
@@ -51,6 +54,9 @@ a {
 }
 .grid-item5 {
   grid-area: handle;
+}
+.contactContainer {
+  color: red;
 }
 .grid-container {
   display: grid;
@@ -90,7 +96,6 @@ a {
   opacity: 0.7;
   background-color: lightcoral;
 }
-
 .home-button {
   position: absolute;
   z-index: 2;
