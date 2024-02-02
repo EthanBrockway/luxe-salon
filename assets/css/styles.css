@@ -18,7 +18,9 @@ h2 {
 p {
   font-size: 25px;
 }
-
+.caraPara {
+  text-align: justify;
+}
 a {
   text-decoration: none;
   color: black;
@@ -43,17 +45,33 @@ a {
 }
 .grid-item2 {
   grid-area: footer;
-  height: 5px;
+  margin-bottom: -20px;
 }
 .grid-item3 {
   grid-area: head;
 }
 .grid-item4 {
   grid-area: foot;
-  height: 5px;
+  margin-bottom: -20px;
 }
 .grid-item5 {
   grid-area: handle;
+}
+.caraPfp {
+  display: block;
+  width: 225px;
+  height: 300px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 30px;
+}
+.meghanPfp {
+  display: block;
+  width: 225px;
+  height: 300px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 30px;
 }
 .contactContainer {
   border-style: solid;
@@ -235,6 +253,10 @@ a {
   .cara-content {
     display: none;
   }
+  .caraPfp {
+    height: 170px;
+    width: 125px;
+  }
   .contact-content {
     display: none;
   }
@@ -282,6 +304,7 @@ a {
   .slide {
     align-items: center;
   }
+
   .slide > img {
     width: 70vw;
   }
