@@ -18,9 +18,7 @@ h2 {
 p {
   font-size: 25px;
 }
-.caraPara {
-  text-align: justify;
-}
+
 a {
   text-decoration: none;
   color: black;
@@ -56,6 +54,9 @@ a {
 }
 .grid-item5 {
   grid-area: handle;
+}
+.caraPara {
+  text-align: justify;
 }
 .caraPfp {
   display: block;
@@ -260,6 +261,7 @@ a {
   .contact-content {
     display: none;
   }
+
   .portfolioHead {
     font-size: 25px;
   }
